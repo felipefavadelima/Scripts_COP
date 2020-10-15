@@ -1,5 +1,15 @@
 # Scripts_COP
-Scripts to obtain center of pressure COP location data from the AMTI 0R6-7-1000 force plate.
+Scripts to obtain center of pressure (COP) location data from the AMTI 0R6-7-1000 force plate.
+
+Files Descriptions:
+
+Example.m - Example of conversion of Raw data from the force plate to COP position
+
+Raw2N_Nm_OR67.m  - Convert raw data (V) to N(Forces)[Fx, Fy, Fz] and N.m(Moments)
+
+N_Nm2COP_OR67.m - Convert N(Forces)[Fx, Fy, Fz] and N.m(Moments)[Mx, My,Mz] to COP(mm)
+
+FP_OR67_Raw_Data_sample.mat - Raw Data acquired from the force plate
 
 More info:
 https://www.youtube.com/watch?v=A-nGEqNLjf4
